@@ -1,0 +1,136 @@
+/* ----------------------------------------------Tags------------------------------------------------*/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: verdana, sans-serif;
+  color:#40514E;
+}
+
+h1 {
+  margin: 90px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3, a {
+  color: #11999E;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+
+/* ----------------------------------------------Classes------------------------------------------------*/
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-container {
+  display: block;
+  background-color: #66BFBF;
+  margin-top: 100px;
+}
+
+.bottom_cloud {
+  position: absolute;
+  left: 300px;
+  top: 400px;
+}
+
+.copyr {
+  color: #EAF6F6;
+  padding-bottom: 50px;
+  margin: 0;
+  font-size: 0.5rem;
+}
+
+.footer-link{
+padding-right: 30px;
+text-decoration: none;
+}
+
+.footer-link:hover{
+color: #EAF6F6;
+}
+
+.links {
+  padding: 50px 0;
+}
+
+.my {
+  width: 15%;
+  border-radius: 50%;
+}
+
+.middle-container{
+
+   margin-top: 70px;
+  }
+
+.para {
+  margin-bottom: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.top {
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.top_cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
